@@ -6,6 +6,12 @@ body {
 	color: #444;          /* text color for the entire page */
 	font-size: 12px;
 	font-family: Verdana, Geneva, sans-serif;
+	
+	border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+          border-bottom-left-radius: 20px;
+          border-bottom-right-radius: 20px;
+	
 }
 
 h1, h2 { 
@@ -44,5 +50,28 @@ h1, h2 {
 	text-align: center;
 }
 
+h1, h2 {
+          text-align:center;   /* centers h1 and h2 content */
+          color:#103E02;       /* exploring new text color */
+}
+
+   #wrapper {
+          width: 900px;
+           margin: 0 auto; /* centers wrapper */
+     }
+
+  .stepTitle {
+     padding:4px;
+     text-align:left;
+     font-size:16px;
+     background-color:#F7B857
+}
+
+.stepContent{ background-color: white; padding:7px;
+display: flex; justify-content: center;
+}
 
 
+img {
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;}
