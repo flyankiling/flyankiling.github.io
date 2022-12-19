@@ -4,7 +4,7 @@
 body {
 	background-color:#93AAD7;   /* background color */
 	color: #444;          /* text color for the entire page */
-	font-size: 12px;
+	font-size: 16px;
 	font-family: Arial, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif""Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"Geneva, sans-serif;
 	
 	border-top-left-radius: 20px;
@@ -29,7 +29,7 @@ h1, h2 {
 	padding:4px;
 	text-align:left;
 	font-size:16px;
-	background-color:#F7B857
+	background-color:#B6C3D0;
  }
 
 .stepContent{ 
@@ -52,7 +52,7 @@ h1, h2 {
 
 h1, h2 {
           text-align:center;   /* centers h1 and h2 content */
-          color:#103E02;       /* exploring new text color */
+          color:#000000;       /* exploring new text color */
 }
 
    #wrapper {
@@ -64,7 +64,7 @@ h1, h2 {
      padding:4px;
      text-align:left;
      font-size:16px;
-     background-color:#F7B857
+     background-color:#B6C3D0
 }
 
 .stepContent{ background-color: white; padding:7px;
@@ -75,3 +75,17 @@ display: flex; justify-content: center;
 img {
 	border-radius: 20px;
 	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;}
+
+
+a:link, a:visited {
+  background-color: #1E3D6E;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #1E3D6E;
+}
